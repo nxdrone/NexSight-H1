@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{background:#111;display:grid;place-items:center;height:100vh;margin:0;font-family:monospace}
+.screen{width:320px;height:240px;background:#000;border:2px solid #1A1E24;color:#fff;position:relative;overflow:hidden}
+.sb{height:11px;background:#0D0F12;border-bottom:1px solid #1A1E24;font-size:8px;display:flex;justify-content:space-between;align-items:center;padding:0 4px}
+.main{padding:4px;font-size:9px;display:flex;flex-direction:column;gap:3px}
+.card{background:#0D0F12;border:1px solid #1A1E24;border-radius:2px;padding:4px}
+.hero{border-color:#0023FF;box-shadow:0 0 10px #0023ff60}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.bar{height:4px;background:#1A1E24}.fill{height:100%;width:75%;background:#00FF66}
+.footer{margin-top:auto;border-top:1px solid #1A1E24;color:#555;padding-top:2px;display:flex;justify-content:space-between}
+</style></head><body>
+<div class="screen"><div class="sb"><span style="color:#AAA">BRL · STATUS</span><span style="color:#0023FF">DISARMED | 24.7V | ELRS</span></div>
+<div class="main"><div class="card hero"><div style="color:#555;font-size:8px">ROBOT STATE</div><div style="font-size:18px;color:#0023FF;font-weight:bold">DISARMED</div></div>
+<div class="row"><div class="card"><div style="color:#555">BATTERY</div><div style="color:#00FF66">24.7V</div><div class="bar"><div class="fill"></div></div></div>
+<div class="card"><div style="color:#555">ELRS LINK</div><div style="color:#00FF66">150 fps</div><div style="color:#AAA">AGE 8ms</div></div></div>
+<div class="card" style="height:62px">RC CHANNELS · ARM:LOW</div>
+<div class="card" style="height:34px">DRIVE OUTPUTS · GATE CLOSED</div>
+<div class="footer"><span>▼ DIAG</span><span>LOG · FREEZE · E-STOP</span></div></div></div>
+</body></html>
